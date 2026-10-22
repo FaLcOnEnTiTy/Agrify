@@ -1,7 +1,8 @@
 {
-  "name": "farmcrop",
+  "name": "agrify",
   "private": true,
-  "version": "0.0.0",
+  "version": "2.5.0",
+  "description": "AGRIFY — Agricultural Intelligence Network & Decision Support System for Indian Farming. Pan-India geospatial mapping, AI crop recommendations, Custom Hiring Centre (CHC) farm machinery rentals, bilingual legal contracts, SMS/USSD telephony interface, and trilingual localization (English, Kannada, Hindi).",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,6 +10,25 @@
     "lint": "oxlint",
     "preview": "vite preview"
   },
+  "keywords": [
+    "agrify",
+    "agriculture",
+    "agritech",
+    "india-farming",
+    "geospatial-intelligence",
+    "crop-recommendation",
+    "custom-hiring-centre",
+    "farm-machinery",
+    "kannada",
+    "hindi",
+    "sms-gateway",
+    "ussd-telephony",
+    "react-19",
+    "vite",
+    "tailwindcss-v4"
+  ],
+  "author": "AGRIFY Team",
+  "license": "MIT",
   "dependencies": {
     "@tailwindcss/vite": "^4.3.3",
     "@types/leaflet": "^1.9.22",

@@ -1,4 +1,4 @@
-# Logs
+# Logs & Debug
 logs
 *.log
 npm-debug.log*
@@ -7,22 +7,38 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# Node dependencies
+node_modules/
+dist/
+dist-ssr/
 *.local
-.vercel
 
-# Editor directories and files
+# Vercel & Deployments
+.vercel/
+
+# Environment Variables & Secrets
+# Keep .env.example committed for developers while ignoring local secret files
+.env
+.env*.local
+.env.development
+.env.test
+.env.production
+!.env.example
+
+# Temporary Scratch Files & Test Artifacts
+.chrometmp/
+scratch/
+shot_*.png
+*.tmp
+
+# Editor directories and OS files
 .vscode/*
 !.vscode/extensions.json
-.idea
+.idea/
 .DS_Store
+Thumbs.db
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
-
-.vercel
-.env*
